@@ -31,6 +31,9 @@ se.gameReady = function () {
 
 function setLevel1() {
 
+    new Background("background", 0, 0, canvas.width, canvas.height);
+
+    new Player("shipblue", 300, 600, "player");
 }
 
 
