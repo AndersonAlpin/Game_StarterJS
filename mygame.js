@@ -19,7 +19,7 @@ se.setResources = function () {
 //Quando o loading acabar
 se.gameReady = function () {
 
-    var jogo = new Scene();
+    let jogo = new Scene();
 
     jogo.setFunctionStart(setLevel1);
 
