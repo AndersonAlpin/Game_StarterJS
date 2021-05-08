@@ -14,5 +14,5 @@ Enemy.prototype.update = function () {
 
 
 Enemy.prototype.fired = function () {
-
+    
 }
