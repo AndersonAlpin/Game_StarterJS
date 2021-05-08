@@ -17,17 +17,23 @@ se.setResources = function () {
 
 
 //Quando o loading acabar
-se.gameReady = function() {
+se.gameReady = function () {
+
+    var jogo = new Scene();
+
+    jogo.setFunctionStart(setLevel1);
+
+    this.mlevel.addScene(jogo);
 
 }
 
-/* //crie quantas funcoes precisar!!!
+//crie quantas funcoes precisar!!!
 
 function setLevel1() {
-    
+
 }
 
 
-function setMenu(){
+function setMenu() {
 
-}*/
+}
